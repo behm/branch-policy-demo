@@ -27,3 +27,12 @@ jobs:
 
       - name: Test
         run: dotnet test --no-build --configuration Release --verbosity normal
+
+  deployment:
+    runs-on: ubuntu-latest
+    needs: build-and-test
+    permissions: {}
+
+    steps:
+      - name: Simulate deployment
+        run: echo "Deploying to Azure"
