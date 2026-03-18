@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Demo.WebApp.Tests/Demo.WebApp.Tests.csproj" />
+  <Project Path="Demo.WebApp/Demo.WebApp.csproj" />
+</Solution>
